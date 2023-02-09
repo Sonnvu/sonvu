@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="slidestyle.css">
+  </head>
+  <body>
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Recent <span>Projects</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 1</h1>
+                        <h2>Website Portfolio</h2>
+                        <p>To gain more understanding in web development, I decided to build 
+                            a personal website along side with a tutorial. After finishing the 
+                            template, I modify the framework and add some sections of my own. Even
+                            though it was very challenging, I later found out that the process of 
+                            adding and styling the website to my own tatse was very fun and rewarding 
+                        </p>
+                        <div class="project-IDE">
+                            <h2>Tools used:</h2>
+                            <div class="icon"><img src="https://img.icons8.com/color/144/000000/visual-studio-code-2019.png"/></div>
+                        </div>
+                        <div class="project-language">
+                            <h2>Language used:</h2>
+                            <div class="icon"><img src="https://img.icons8.com/color/96/000000/html-5--v1.png"/></div>
+                            <div class="icon"><img src="https://img.icons8.com/color/96/000000/css3.png"/></div>
+                            <div class="icon"><img src="https://img.icons8.com/color/96/000000/javascript--v1.png"/></div>
+                        </div>
+                    </div>
+                    <div class="project-img">
+                         <!--image slider start-->
+                        <div class="slider">
+                            <div class="slides">
+                                <!--radio buttons start-->
+                                <input type="radio" name="radio-btn" id="radio1">
+                                <input type="radio" name="radio-btn" id="radio2">
+                                <input type="radio" name="radio-btn" id="radio3">
+                                <input type="radio" name="radio-btn" id="radio4">
+                                <!--radio buttons end-->
+                                <!--slide images start-->
+                                <div class="slide first">
+                                <img src="./img/table drawing.jpg" alt="">
+                                </div>
+                                <div class="slide">
+                                <img src="./img/project1.png" alt="">
+                                </div>
+                                <div class="slide">
+                                <img src="./img/pitt campus.jpg" alt="">
+                                </div>
+                                <div class="slide">
+                                <img src="./img/fambike.jpg" alt="">
+                                </div>
+                                <!--slide images end-->
+                                <!--automatic navigation start-->
+                                <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                            <!--automatic navigation end-->
+                            </div>
+                            <!--manual navigation start-->
+                            <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                                <label for="radio4" class="manual-btn"></label>
+                            </div>
+                            <!--manual navigation end-->
+                        </div>
+                        <!--image slider end-->
+                <!-- if need more project item, add here -->
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
